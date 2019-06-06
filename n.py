@@ -1,10 +1,10 @@
-ak1=input()
-ak1=ak1.split()
-bk1=int(ak1[1])
-ck1=input()
-ck1=ck1.split()
-dk1=0
-ck1=list(map(int,ck1))
-for i in range(0,bk1):
-    dk1=dk1+ck1[i]
-print(dk1)
+in=input()
+in=in.split()
+ot=int(in[1])
+c1=input()
+c1=c1.split()
+d1=0
+c1=list(map(int,c1))
+for i in range(0,b1):
+    d1=d1+c1[i]
+print(d1)
