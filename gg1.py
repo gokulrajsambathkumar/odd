@@ -1,13 +1,10 @@
 import sys, string, math, itertools
-
-n = input()
-n = int(n)
+n1 = input()
+n1 = int(n1)
 L = []
-
-for i in range(0,n) :
+for i in range(0,n1) :
     s = input()
     L.append(s)
-
 common_prefix = []
 for i in zip(*L):
     if i.count(i[0]) == len(i):
