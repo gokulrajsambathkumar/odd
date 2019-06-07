@@ -1,4 +1,4 @@
-num=int(input())
+n=int(input())
 for i in range(1,6):
-    s=num*i
+    s=n*i
     print(s,end=' ')
