@@ -1,7 +1,7 @@
-i=int(input())
-for n in range(2,i):
-    if(i%2==0):
-       print("no")
-       break  
+i= int(input())
+for p in range(2,i):
+	if i % p == 0:
+		print("no")
+		break
 else:
-    print("yes")
+	print("yes")
